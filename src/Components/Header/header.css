@@ -1,0 +1,38 @@
+.header {
+  background-color: #4b5563;
+}
+.header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-content .title-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 60px;
+}
+.header .header-content .title-logo h2 {
+  color: #fff;
+}
+.header .header-content .title-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.header .header-content .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.header .header-content .nav a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header .header-content .nav a:hover {
+  color: #87CEEB;
+}
